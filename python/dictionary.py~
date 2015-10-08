@@ -1,4 +1,0 @@
-d = {}
-d['one']=1
-d['two']='two'
-d['three']='hello'
