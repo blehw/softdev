@@ -14,8 +14,8 @@ var oldX = -1;
 var oldY = -1;
 
 function click(e){
-    x=e.pageX;
-    y=e.pageY;
+    x=e.pageX-10
+    y=e.pageY-55
     ctx.beginPath();
     ctx.arc(x,y,10,0,2*Math.PI);
     ctx.fill();
@@ -29,7 +29,6 @@ function click(e){
     }
     oldX = x;
     oldY = y;
-
 }
 
 function clear(){
